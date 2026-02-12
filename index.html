@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ananya Marmamula | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --bg: #240046;
+            --primary-dark: #E0AFA0;
+            --text-dark: #000000;
+            --accent-green: #8A817C;
+            --accent-blush: #d3f9b5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px 30px;
+            background-color: var(--bg);
+        }
+
+
+        header h1 {
+            margin-top: 20px;
+            font-size: 2.5rem;
+            color: var(--primary-dark);
+        }
+
+        header p {
+            margin-top: 8px;
+            color: var(--accent-green);
+            font-weight: 500;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 18px;
+            background-color: var(--accent-green);
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--accent-blush);
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        section {
+            padding: 30px 15%;
+        }
+
+        h2 {
+            color: var(--primary-dark);
+            margin-bottom: 25px;
+            border-left: 6px solid var(--accent-green);
+            padding-left: 10px;
+        }
+
+        .card {
+            background-color: var(--accent-blush);
+            padding: 22px;
+            margin-bottom: 22px;
+            border-radius: 10px;
+            box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a.project-link {
+            color: var(--bg);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a.project-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: var(--primary-dark);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 50px 15%;
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ananya Marmamula</h1>
+    <p>Information Technology Student | Full-Stack & ML Enthusiast</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        I am a second-year Information Technology student passionate about building 
+        full-stack applications, real-time systems, and ML-powered solutions. 
+        I enjoy solving complex problems using Python and data structures, 
+        and I thrive in collaborative environments like hackathons where I can design, 
+        build, and iterate on impactful software systems.
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <strong>B.E. in Information Technology</strong><br>
+        Vasavi College of Engineering (2024 – Present)<br>
+        CGPA: 8.55
+    </div>
+
+    <div class="card">
+        <strong>Higher Secondary Education</strong><br>
+        Resonance Junior College (2022 – 2024)<br>
+        94.5%
+    </div>
+
+    <div class="card">
+        <strong>Secondary Education</strong><br>
+        Bhavan’s Sri Ramakrishna Vidyalaya (2010 – 2022)<br>
+        97.2%
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Python, C++, Java, C, HTML, CSS</li>
+            <li>React, Node.js, Express</li>
+            <li>Data Structures & Algorithms, OOP</li>
+            <li>GitHub, VS Code, OpenCV, NumPy</li>
+            <li>Problem Solving, Teamwork, Communication</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <strong>InvestEase</strong><br>
+        Built a smart, user-friendly investment management platform that helps users track, analyze, and optimize their portfolios with data-driven insights and simplified financial planning tools. <br>
+        <a href="https://github.com/ananya-mar/invest-ease" class="project-link">Project Link</a>
+    </div>
+
+    <div class="card">
+        <strong>Kisaan Sethu</strong><br>
+        Built an AI-driven advisory platform integrating ML pest detection and real-time market data. <br>
+        <a href="https://innovate-frontend-94gd.onrender.com/" class="project-link">Project Link</a>
+    </div>
+    
+    <div class="card">
+        <strong>Desktop Organizer</strong><br>
+        Developed a rule-based automated file organization system with transactional undo support. <br>
+        <a href="https://github.com/ananya-mar/desktop-organizer" class="project-link">Project Link</a>
+    </div>
+
+    <div class="card">
+        <strong>Blackjack</strong><br>
+        Built a console-based Blackjack game in C that simulates real casino gameplay with cards, scoring, and win–loss logic.<br>
+        <a href="https://github.com/ananya-mar/blackjack-project" class="project-link">Project Link</a>
+    </div>
+
+    
+
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <div class="card">
+        <ul>
+            <li>Smart India Hackathon 2025 Participant</li>
+            <li>IEEE Glacier Hackathon Participant</li>
+            <li>Award-winning MUN Delegate & International Press Reporter</li>
+            <li>Toastmasters Member</li>
+        </ul>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="card">
+        NPTEL – Programming in Modern C++
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <b>Email: </b>
+        <a href="mailto:ananyamarmamula@gmail.com">
+            ananyamarmamula@gmail.com
+        </a>
+        <br><br>
+
+        <b>Phone: </b>
+        <a href="tel:+919100649816">
+            +91 9100649816
+        </a>
+        <br><br>
+
+        <b>LinkedIn: </b>
+        <a href="https://www.linkedin.com/in/ananya-marmamula/" target="_blank">
+            linkedin.com/in/ananya-marmamula
+        </a>
+        <br><br>
+
+        <b>GitHub: </b>
+        <a href="https://github.com/ananya-mar" target="_blank">
+            github.com/ananya-mar
+        </a>
+    </div>
+</section>
+
+
+<footer>
+    © 2026 Ananya Marmamula
+</footer>
+
+</body>
+</html>
